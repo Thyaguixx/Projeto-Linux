@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: "123"
+      MYSQL_DATABASE: "ProjetoLinux"
+      MYSQL_USER: "carlin-thy"
+      MYSQL_PASSWORD: "123"
+    ports:
+      - "3306:3306"
